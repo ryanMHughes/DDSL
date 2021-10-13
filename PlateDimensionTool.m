@@ -46,8 +46,8 @@ c = 4 * roh;
 d = b / c;
 
 lengths = [];
-widths = [w; w; w; w; w; w; w];
-t = 0.0025:-0.00025:0.001;
+widths = [w; w; w; w; w; w; w; w; w];
+t = 0.0025:-0.00025:0.0005;
 t = t.';
 for i = 1:length(t)
     lenSQ = (  a * t(i)  ) / (  (  1 + (  d / t(i)  )  ) ^ (0.5)  ); 
